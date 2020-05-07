@@ -1,0 +1,14 @@
+/* стили шапки */
+.link {
+  color: black;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.link:active {
+  color: blueviolet;
+}
+.logo-one {
+  color: #2196f3;
+}

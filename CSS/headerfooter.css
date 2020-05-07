@@ -1,1 +1,8 @@
-/* Cтили футера */
+/* общие стили для страниц */
+body {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.3);
+}
+ul {
+  list-style: none;
+}
