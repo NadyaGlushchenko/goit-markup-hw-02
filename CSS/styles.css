@@ -1,3 +1,7 @@
+:root {
+  --background-color: #2196f3;
+  --text-color: #ffffff;
+}
 /* стили шапки */
 
 .link {
@@ -21,16 +25,16 @@
   font-weight: 700;
 }
 .logo-one {
-  color: #2196f3;
+  color: var(--background-color);
 }
 .logo-two {
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 /* Стили героя */
 .hero-title {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--text-color);
+  background: var(--background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -38,14 +42,14 @@
   text-transform: uppercase;
 }
 .link-hero {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--background-color);
+  color: var(--text-color);
   text-decoration: none;
   font-weight: 700;
 }
 /* cтили секций */
 .three {
-  color: #ffffff;
+  color: var(--text-color);
   background: rgba(47, 48, 58, 0.8);
   font-size: 14px;
   line-height: 1.14;
@@ -58,8 +62,8 @@
 }
 .list a:hover,
 .list a:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 .section-title {
