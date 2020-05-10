@@ -24,6 +24,17 @@ button {
 .site-nav {
   font-size: 14px;
   line-height: 1.14;
+  color: #212121;
+  font-weight: 500;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
 }
 
 .link:hover,
@@ -38,6 +49,9 @@ button {
 .contacts .link {
   color: #757575;
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
 }
 
 .adress {
@@ -55,6 +69,7 @@ button {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .network a {
   color: #ffffff;
